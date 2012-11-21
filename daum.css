@@ -1,0 +1,509 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0;}
+fieldset,img{border:0;}
+dl,ul,ol,li{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+input,select,textarea,button{vertical-align:middle;font-size:100%;}
+html,body{background:#fff;color:#333;}
+a{color:#333;text-decoration:none;}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal;}
+hr{display:none;}
+.daumhide{position:absolute;left:-9999in;width:1px;height:1px;overflow:hidden;}
+body{-webkit-text-size-adjust:none;}
+body,input,select,textarea{font:14px/1.5 'Malgun Gothic',sans-serif;}
+a.round{border:1px solid;-webkit-border-radius:3px;border-radius:3px;padding:1px;font-size:13px;display:inline-block;}
+a.round span{-webkit-border-radius:3px;border-radius:3px;display:inline-block;width:100%;height:100%;text-align:center;}
+#daumHead.type_navi{border-bottom:2px solid #7b98ff;background:#3d414f url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/bg.gif);-webkit-box-shadow:0 1px 0 #738eeb;}
+#daumHead{border-bottom:2px solid #7b98ff;background:#3d414d url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/bg.gif);-webkit-box-shadow:0 1px 0 #738eeb;}
+#daumHead h1{z-index:4;position:relative;}
+#daumLogo{position:absolute;top:10px;left:8px;}
+#daumServiceLogo{width:66px;height:20px;position:absolute;top:11px;left:58px;color:#fff;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/title_mypeople.gif) no-repeat;text-indent:-9999in;overflow:hidden;}
+#daumHead .head_top{height:39px;border-bottom:1px solid #363A45;}
+#daumHead .head_top .right{margin-right:6px;margin-top:6px;float:right;display:inline;}
+.opera #daumHead .head_top .right{white-space:nowrap;}
+#daumHead .head_top #moreView.close span span {-webkit-box-shadow: none;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_t_arrow.gif) no-repeat center 7px;display:block;text-indent:-9999in;overflow:hidden;}
+#daumHead .head_top #moreView.open span span {-webkit-box-shadow: none;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_t_arrow.gif) no-repeat center -14px;display:block;text-indent:-9999in;overflow:hidden;}
+#daumHead .head_top #moreView span span{color:#DEE3EF;}
+#moreView{position:absolute;left:132px;top:8px;;text-align:center;font-size:8px;color:#fff;-webkit-border-radius:3px;width:28px;border:0 none;}
+#moreView.close{height:21px;padding:1px;background-color:#303545}
+#moreView.open{-webkit-border-bottom-right-radius:0px;-webkit-border-bottom-left-radius:0px;height:31px;padding:1px 1px 0px 1px;z-index:10;border-width:1px 1px 0px 1px;background-color:#2c3040;}
+#moreView.open span{-webkit-border-bottom-right-radius:0px;-webkit-border-bottom-left-radius:0px;background:-webkit-gradient(linear,left top,left bottom,from(#696c7f),to(#585b6c));background-color:#585b6c;}	
+#moreView span{line-height:23px;color:#FFF; -webkit-border-radius:3px;background:-webkit-gradient(linear,left top,left bottom,from(#4a4e5d),to(#424653));background-color:#4b4f5d;-webkit-box-shadow:inset 1px 1px 1px rgba(255,255,255,0.03),inset -1px -1px 1px rgba(255,255,255,0.03);display:inline-block; height:100%; text-align:center; width:100%; }
+#miniLayer{border:1px solid #2c3040;position:absolute;left:132px;top:39px;width:101px;}
+#miniLayer .yellow a{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_set.gif) no-repeat 8px 9px;padding-left:25px;color:#FEF8C4;}
+.mini_service_close{display:none;}
+.mini_service_open{display:block;z-index:2;}
+#miniLayer li{height:31px;background-color:#5A6B9F;border-color:#303545;padding:1px 1px 0 1px;background-color:#585b6c;}
+#miniLayer li a{padding-left:10px;font-size:14px;color:#FFF;display:block;height:100%;text-align:left;line-height:31px;}
+#miniLayer li{border-bottom:1px solid #4d4b5c;}
+#miniLayer li.last{border-bottom:none;}
+#daumHead .head_top a.round{border:0 none;background-color:#303545;}
+#daumHead .head_top a.round span{line-height:25px;color:#FFF;-webkit-box-shadow:inset 1px 1px 1px rgba(255,255,255,0.03),inset -1px -1px 1px rgba(255,255,255,0.03);background:-webkit-gradient(linear,left top,left bottom,from(#4a4e5d),to(#424653));background-color:#4b4f5d;}
+#daumHead .head_top a.round span span{-webkit-box-shadow:none;display:block;text-indent:-9999in;}
+#daumHead .head_top .btn_search{width:32px;height:25px;margin-left:5px;}
+#daumHead .head_top .btn_search span span{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_t_allsitesh.gif) no-repeat center -36px;}
+#daumHead .total_view{width:32px;height:25px;}
+#daumHead .head_top .total_view span span{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_t_allsitesh.gif) no-repeat 9px 5px;}
+#daumHead.type_navi .head_top{border-bottom:1px solid #363A45;}
+#daumHead .head_navi a.round{color:#fff;position:absolute;top:4px;height:27px;border:0 none;background-color:#2c3040;}
+#daumHead .head_navi a.round span{line-height:27px;width:71px;height:27px;-webkit-box-shadow:inset 1px 1px 1px rgba(255,255,255,0.05),inset -1px -1px 1px rgba(255,255,255,0.05);background:-webkit-gradient(linear,left top,left bottom,from(#626577),to(#474a58));background-color:#565969;}
+.opera #daumHead .head_navi a.round span{white-space:nowrap;}
+#daumHead .head_navi a.round span span{padding:0;-webkit-box-shadow:none;box-shadow:none;display:block;}
+#daumHead.type_navi .head_navi a.prev span{width:51px;height:27px;}
+#daumHead.type_navi .head_navi a.prev span span{padding-left:15px;width:32px;color:#fff;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/arrow_prev.gif) no-repeat 8px 9px;}
+#daumHead .head_navi .refresh{width:32px;height:29px;}
+#daumHead.type_navi .head_navi .refresh span{width:32px;}
+#daumHead .head_navi .refresh span span{width:19px;text-indent:-1000em;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_refresh.gif) no-repeat 7px 5px;}
+#daumHead .head_navi{position:relative;border-top:1px solid #454955;border-bottom:1px solid #353947;height:37px;}
+#daumHead .head_navi .navi_left{left:6px;}
+#daumHead .head_navi .navi_leftright{left:51px;}
+#daumHead .head_navi .navi_right{right:6px;}
+#daumHead .head_navi h2{color:#fff;text-align:center;font-size:16px;line-height:40px;}
+
+
+#daumFoot {font-family:sans-serif; clear:both; margin:0 auto; padding-top:10px; width:100%; background:#ebebeb; border-top:1px solid #dbdbdb; text-align:center;}
+#daumFoot ul {margin:0 auto; width:280px; height:28px; overflow:hidden; text-align:center;}
+#daumFoot li {position:relative; float:left;}
+#daumFoot li a {display:block; margin:0 2px; width:64px; height:24px; overflow:hidden; color:#333; font-size:13px; line-height:25px; border:1px solid #c4c4c4; -webkit-border-radius:3px; background-color:#f7f7f7; background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2)); -webkit-box-shadow:inset 1px 1px 1px rgba(255, 255, 255, 0.7), inset -1px 0 1px rgba(255, 255, 255, 0.7);}
+#daumFoot li a.off {color:#999;}
+#daumFoot .ext {padding:10px 0 4px; line-height:10px; font-size:10px; color:#999;}
+#daumFoot .ext span {margin:0 5px;}
+#daumFoot .ext a {color:#999; text-decoration:underline;}
+#daumFoot address {clear:both; padding:3px 0 5px 0; height:19px; color:#999; font-size:11px;}
+
+
+#daumTotalSearchBack{top:0;}
+#daumTotalSearchLayer{top:0;-webkit-box-shadow:inset 0 -1px 1px 0 rgba(255,255,255,0.04);}
+#btnTotalSearch{right:46px;}
+#btnTotalSearch_img{right:46px;}
+#btnTotalSearchClose{border:0 none;position:absolute;top:7px;right:6px;padding:1px;width:33px;height:36px;-webkit-border-radius:6px;background-color:#2c3040;}
+#btnTotalSearchClose span{line-height:36px;color:#fff;width:100%;height:100%;display:inline-block;-webkit-box-shadow:inset 1px 1px 1px rgba(255,255,255,0.02),inset -1px -1px 1px rgba(255,255,255,0.02);-webkit-border-radius:6px;background:-webkit-gradient(linear,left top,left bottom,from(#696c7f),to(#585b6c));background-color:#585b6c;}
+#btnTotalSearchClose span span{-webkit-box-shadow:none;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/black/ico_close.gif) no-repeat center center;display:block;text-indent:-9999in;overflow:hidden;}
+#daumTotalSuggestLayer{top:48px;}
+#daumTotalSuggestLayer .suggestBox{margin:0 46px 0 7px;}
+#btnTotalSearch{border:0 none;position:absolute;top:7px;padding:1px;width:44px;height:36px;-webkit-border-radius:6px;background-color:#383d4b;}
+#btnTotalSearch span span{-webkit-box-shadow:none;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/blue/txt_sh2.gif) no-repeat center center;display:block;text-indent:-9999in;overflow:hidden;}
+.daumTotalSearch_outwrap{height:36px;padding:1px;margin:7px 100px 7px 6px;position:relative;background-color:#383d4b;-webkit-border-radius:6px;}
+.daumTotalSearch_midwrap{padding:4px;height:28px;background-color:#617bff;-webkit-border-radius:6px;}
+.daumTotalSearch_inwrap{width:100%;height:100%;-webkit-border-radius:2px;-webkit-box-shadow:inset 1px 1px 2px rgba(0,0,0,0.3);background-color:#fff;}
+.daumTotalSearch_inwrap input{line-height:20px;height:20px;font-size:15px;width:85%;background-color:transparent;border:0;padding:0 32px 0 5px;-webkit-appearance:none;-webkit-border-radius:0;margin-top:4px;}
+.daumTotalSearch_outwrap_img{margin:7px 100px 7px 6px;position:relative;padding:1px;height:37px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/blue/sh_box2.gif) left 0 no-repeat;}
+.daumTotalSearch_midwrap_img{height:37px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/blue/sh_box2.gif) right -121px no-repeat;}
+.daumTotalSearch_inwrap_img{height:37px;margin:0 15px 0 10px;padding-right:30px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/blue/sh_box2.gif) 0 -61px repeat-x;}
+.daumTotalSearch_inwrap_img input{line-heigh:20px;height:20px;font-size:15px;width:100%;background-color:transparent;border:0;-webkit-appearance:none;-webkit-border-radius:0;margin-top:5px;padding:5px 0;}
+#btnTotalSearch.img{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/blue/sh_btn2.gif) 0 0 no-repeat;border:0 none;position:absolute;top:7px;width:46px;height:38px;text-indent:-9999in;overflow:hidden;}
+#btnTotalSearchClear{border:0 none;position:absolute;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/common/2010/blue/sh_box2.gif) 0 -175px no-repeat;top:6px;right:6px;height:17px;width:17px;padding:5px;display:none;}
+#btnTotalSearchClear.img{right:10px;top:5px;}
+#daumTotalSearchBack{display:none;z-index:9998;width:100%;height:100%;opacity:.9;filter:alpha(opacity = 90);position:absolute;left:0;background-color:#000;}
+#daumTotalSearchLayer{display:none;height:52px;width:100%;z-index:9999;position:absolute;left:0;border-bottom:1px solid #111216;background:-webkit-gradient(linear,left top,left bottom,from(#585b6c),to(#464858));background-color:#585b6c;}
+#btnTotalSearch span{line-height:36px;width:100%;height:100%;display:inline-block;color:#3949af;-webkit-border-radius:6px;background:-webkit-gradient(linear,left top,left bottom,from(#f7f8ff),to(#bdc2d1));background-color:#dbdee9;}
+#daumTotalSearchClipWrap{width:16px;height:24px;position:absolute;right:0;top:7px;}
+#daumTotalSearchClipWrap .daumTotalSearchClipRight{z-index:1;position:absolute;top:0;right:-3px;width:3px;border-left:1px solid #db8b14;height:100%;-webkit-border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;background:-webkit-gradient(linear,left top,right top,from(#f4a820),to(#ffa81a));background-color:#ffb223;}
+#daumTotalSearchClipWrap .daumTotalSearchClipLeft{z-index:2;position:absolute;top:5px;right:-3px;width:15px;height:14px;-webkit-border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;background:-webkit-gradient(linear,left top,right bottom,from(#fed36c),to(#ffa81a));background-color:#ffb223;}
+#daumTotalSuggestLayer{width:100%;position:absolute;left:0;z-index:9999;}
+#daumTotalSuggestLayer ul{position:relative;background:#fff;border-bottom:0 none;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px;}
+#daumTotalSuggestLayer li{display:block;border-bottom:1px solid #eaeaea;height:34px;line-height:34px;font-size:15px;}
+#daumTotalSuggestLayer li a{height:100%;display:block;padding-left:12px;}
+#daumTotalSuggestLayer .suggestBox{background-color:#95a4dd;padding:1px;-webkit-border-radius:6px;display:none;}
+#daumTotalSuggestLayer div.list,#daumTotalSuggestLayer div.baseBox{-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px;}
+#daumTotalSuggestLayer.wide ul{float:left;width:100%;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px;}
+#daumTotalSuggestLayer.wide .suggestBox li{float:left;width:50%;background-color:#fff;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;}
+#daumTotalSuggestLayer.wide .suggestBox li a{width:94%;}
+#daumTotalSuggestLayer.wide .suggestBox li a.first{width:94%;border-right:1px solid #ececec;}
+#daumTotalSuggestLayer strong{color:#eb550c;}
+#daumTotalSuggestLayer .footer{clear:both;border-top:0 none;position:relative;padding:7px 12px;text-align:right;background-color:#f7f7f7;-webkit-border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;}
+#daumTotalSuggestLayer .footer .fl{display:none;}
+
+/* For Apple Mobile Only */
+input[type="text"],input[type="number"],input[type="password"],input[type="submit"],input[type="tel"] { -webkit-appearance: none; -webkit-border-radius: 0;}
+input:checked[type="checkbox"] { background-color: #666; -webkit-appearance: checkbox; }
+input[type="text"],input[type="tel"]{-webkit-border-radius:5px;}
+
+#daumContent .main_img{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_tit_spr_v1.gif) no-repeat;}
+#daumContent h2{width:240px;height:49px;margin:0 auto;margin-top:30px;margin-bottom:10px;}
+#daumContent .main_charac{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myico_gid1.gif) no-repeat;width:116px;height:89px;margin:0 auto;}
+#daumContent .authorization{width:294px;margin:0 auto;padding:14px 14px 43px 12px}
+#daumContent .authorization h3{margin-bottom:5px;background-position:0px -362px;width:97px;height:22px;text-indent:-1000em;}
+/*공통부분*/
+#daumContent .imgbtn{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_bt_spr_v1.jpg) no-repeat;border:0 none;cursor:pointer;margin:0;padding:0;}
+#daumContent .imgbg{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_bg_spr_v1.gif) no-repeat;}
+
+#daumContent .authorization .input_area{width:294px;height:85px;position:relative;}
+#daumContent .authorization .input_area .left{position:absolute;top:0;left:0;background-position:0px -720px;width:4px;height:85px;}
+#daumContent .authorization .input_area .center{position:absolute;top:0;left:4px;background-position:0px -840px;background-repeat:repeat-x;width:286px;height:85px;}
+#daumContent .authorization .input_area .right{position:absolute;top:0;right:0;background-position:0px -960px;width:6px;height:85px;}
+
+#daumContent .authorization .author_btn{margin-left:74px;width:154px;height:35px;background-position:0px -640px;margin-top:20px;}
+#daumContent .authorization .num_accept{margin-left:74px;width:154px;height:35px;background-position:0px -560px;margin-top:20px;}
+#daumContent .authorization .input{left:9px;top:0px;position:absolute;width:275px;}
+#daumContent .authorization .input p{margin-bottom:9px;text-indent:-1000em;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_tit_spr_v1.gif) no-repeat 0px -480px;margin-top:16px;width:255px;height:14px;}
+#daumContent .authorization .input p.input_desc{background-position:0px -600px;}
+#daumContent .authorization .input .author_input{padding-left:10px;font-size:21px;color:#000;font-weight:bold;border:1px solid #a9a9a9;width:254px;height:30px;}
+
+#daumContent .authorization .input .tel{font-weight:bold;padding-left:9px;border:1px solid #a9a9a9;font-size:21px;color:#282829;float:left;width:65px;height:30px;}
+#daumContent .authorization .input span{float:left;text-indent:-1000em;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_dot.gif) no-repeat;margin:15px 6px;width:8px;height:1px;}
+#daumContent .block{left:0;height:60px;overflow:hidden;position:absolute;text-indent:-1000em;top:0;width:100%;}
+
+/*메시지리스트*/
+#daumContent .tab_area{position:relative;padding:10px 11px 0px 13px;height:32px;background-position:0px -240px; background-repeat:repeat-x;}
+#daumContent .tab_area .tab_message{overflow:hidden;float:left;text-indent:-1000em;position:relative;width:107px;height:32px;}
+#daumContent .tab_area .tab_message .message{position:absolute;top:0;left:4px;width:99px;height:32px;background-position:0px -960px;}
+#daumContent .tab_area .tab_message .on{background-position:0px -880px;}
+#daumContent .tab_area .tab_message .left{position:absolute;top:0;left:0;background-position:0px -1560px;width:4px;height:32px;}
+#daumContent .tab_area .tab_message .right{position:absolute;top:0;right:0;background-position:0px -1640px;width:4px;height:32px;}
+#daumContent .tab_area .tab_message .lefton{position:absolute;top:0;left:0;background-position:0px -1080px;width:4px;height:32px;}
+#daumContent .tab_area .tab_message .righton{position:absolute;top:0;right:0;background-position:0px -1800px;width:4px;height:32px;}
+
+#daumContent .tab_area .tab_friends{float:left;text-indent:-1000em;position:relative;width:105px;height:32px;}
+#daumContent .tab_area .tab_friends .friends{overflow:hidden;position:absolute;top:0;left:3px;width:98px;height:32px;background-position:-1px -1120px;}
+#daumContent .tab_area .tab_friends .on{background-position:0px -1040px;}
+#daumContent .tab_area .tab_friends .left{position:absolute;top:0;left:0;background-position:0px -1320px;width:4px;height:32px;}
+#daumContent .tab_area .tab_friends .right{position:absolute;top:0;right:0;background-position:0px -1640px;width:4px;height:32px;}
+#daumContent .tab_area .tab_friends .lefton{position:absolute;top:0;left:0;background-position:0px -1720px;width:4px;height:32px;}
+#daumContent .tab_area .tab_friends .righton{position:absolute;top:0;right:0;background-position:0px -1240px;width:4px;height:32px;}
+
+#daumContent .refresh{position:absolute;top:6px;right:13px;background-position:0px -160px;width:30px;height:27px;text-indent:-1000em;overflow:hidden;}
+
+#daumContent .mlist_area {margin-bottom:30px;}
+#daumContent .mlist_area li{width:100%;overflow:hidden;position:relative;padding:9px 0px 12px 0px;border-bottom:1px solid #e1e1e1;}
+#daumContent .mlist_area li .img{position:absolute;left:13px;top:9px;width:44px;height:44px;z-index:5;display:block;}
+#daumContent .mlist_area li img{float:left;display:block;width:44px;height:44px;margin-right:14px;}
+#daumContent .mlist_area li .icoNew{top:-3px;left:-4px;position:absolute;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myico_n.png) no-repeat;width:18px;height:18px;z-index:1;}
+#daumContent .mlist_area li .content{margin-left:65px;}
+#daumContent .mlist_area li p{height:15px;font-size:12px;letter-spacing:-1px;text-overflow:ellipsis;margin-right:70px;white-space:nowrap;overflow:hidden;color:#6c6c6c;}
+#daumContent .mlist_area li em{padding-right:13px;width:50px;height:15px;text-align:right;background-color:#fff;position:absolute;bottom:13px;right:0px;font-size:12px;letter-spacing:-1px;color:#37428e;}
+
+#daumContent .mlist_area .see_more {padding-top:0;border-bottom:none;border-top:none;margin-top:-1px;cursor:pointer;}
+
+#daumContent .mlist_area li .content .dimmed {color:#999;}
+
+#daumContent .title {height:24px;padding-right:8px;}
+#daumContent .title .name{margin-top:5px;line-height:1.1em;margin-right:7px;letter-spacing:-1px;font-size:16px;font-weight:bold;float:left;}
+#daumContent .title .ballo{margin-top:3px;float:left;position:relative;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_balloonbg_spr.gif) no-repeat;}
+#daumContent .title .ballo .left{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_balloonbg_spr.gif) no-repeat;background-position:0px 0px;width:10px;height:20px;float:left;}
+#daumContent .title .ballo .center{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-size:12px;color:#756817;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_balloonbg_spr.gif) no-repeat;float:left;background-position:0px -40px;background-repeat:repeat-x;padding-top:2px;height:18px;}
+#daumContent .title .ballo .right{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_balloonbg_spr.gif) no-repeat;background-position:0px -80px;width:14px;height:20px;float:left;}
+
+#daumContent .message_more{display:block;text-align:center;height:24px;border-top:1px solid #cccccd;padding-top:12px;border-bottom:1px solid #cccccd;background-color:#f7f7f8;}
+#daumContent .message_more .m_more{margin:0 auto;display:block;width:90px;height:13px;background-position:0px -1200px;text-indent:-1000em;}
+#daumContent .message_more .f_more{margin:0 auto;display:block;width:90px;height:13px;background-position:0px -1360px;text-indent:-1000em;}
+
+#daumContent #noMessage{text-align:center;}
+#daumContent .noMessageDesc{text-indent:-1000em;margin:0 auto;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_tit_spr_v1.gif) no-repeat 0px -120px;width:266px;height:38px;}
+#daumContent .message_charac{margin:20px 0px 14px;}
+#daumContent #talking{margin:0 auto;display:block;text-indent:-1000em;overflow:hidden;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_bt_spr_v1.jpg) no-repeat 0px -720px;width:154px;height:35px;margin-top:20px;margin-bottom:97px;}
+
+/*친구목록*/
+#daumContent .talkbtn_wrap{height:43px;padding-top:10px;border-bottom:1px solid #e1e1e1;text-align:center;}
+#daumContent .talkBtn{margin:0 auto;display:block;background-position:0px -800px;width:142px;height:34px;text-indent:-1000em;overflow:hidden;}
+
+#daumContent .friendAdd{margin-top:1px;padding:4px 0 0px 6px;height:34px;border-bottom:1px solid #b8bbc1;background-color:#f2f2f6;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e6e7ec), to(#d7dae1));background: -moz-linear-gradient(90deg,#d7dae1,#e6e7ec);}
+#daumContent .friendAdd .input_name{line-height:1.3em;padding-top:6px;padding-bottom:4px;padding-left:10px;width:66px;height:18px;font-size:16px;color:black;letter-spacing:-1px;font-weight:bold;border:1px solid #a9a9a9;margin-right:2px;}
+#daumContent .friendAdd .input_number{margin-right:2px;line-height:1.3em;padding-top:5px;padding-bottom:5px;padding-left:10px;width:153px;height:18px;border:1px solid #a9a9a9;font-size:16px;color:black;letter-spacing:-1px;font-weight:bold;}
+#daumContent .friendAdd .addBtn{width:53px;height:30px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/mypeople/2010/btn_plus.gif) no-repeat;margin-left:0;}
+
+#daumContent .nofriendsDesc{width:266px;height:38px;text-indent:-1000em;margin:0 auto 30px auto;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_tit_spr_v1.gif) 0px -240px no-repeat;margin-bottom:90px;}
+
+#daumContent .flist_area table{width:100%;border-collapse:separate;}
+#daumContent .flist_area table td{border:none;border-bottom:1px solid #e1e1e1;}
+#daumContent .flist_area td{padding:8px 0px 5px 0px;height:27px;}
+#daumContent .flist_area .checkBox{width:35px;}
+#daumContent .flist_area tr .checkBox .check{margin-left:13px;}
+#daumContent .flist_area tr td.img{width:27px;position:relative;padding-right:8px;}
+#daumContent .flist_area tr td img{width:27px;float:left;}
+#daumContent .flist_area .name{}
+#daumContent .flist_area .name span{font-weight:bold;display:block;font-size:16px;overflow:hidden;height:27px;width:70px;text-overflow:ellipsis;white-space:nowrap;}
+#daumContent .flist_area tr td.phonenum{padding-left:10px;letter-spacing:-1px;white-space:nowrap;letter-spacing:-1px;font-size:16px;color:#68686e;}
+#daumContent .flist_area tr td.phonenum a{letter-spacing:-1px;font-size:16px;color:#68686e;}
+#daumContent .flist_area tr td.phonenum a:hover{text-decoration:none;}
+#daumContent .flist_area tr td.img .icoWrap{position:relative;}
+#daumContent .flist_area tr td.lastLogin{width:47px;text-align:right;padding-right:12px;font-size:12px;letter-spacing:-1px;color:#37428e;}
+#daumContent #flist_area .more {background:#f8f8fa;height:36px;padding:0;text-align:center;}
+#daumContent #flist_area .more span {display:block;width:79px;height:13px;background:#f8f8fa url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_bt_spr_v1.jpg) no-repeat 0 -1360px;overflow:hidden;margin:0 auto;text-indent:-1000in;}
+#daumContent .flist_area tr td.img .icoNew{z-index:1;top:-3px;left:-3px;position:absolute;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myico_n.png) no-repeat;width:18px;height:18px;}
+
+/*대화리스트*/
+#daumContent .titleBar{position:relative;background-repeat:repeat-x;background-position:0px -120px;text-align:center;height:35px;padding:7px 70px 0px 13px;color:#000;letter-spacing:-1px;font-weight:bold;font-size:19px;}
+#daumContent .titleBar h3{overflow:hidden;padding-left:10px;white-space:nowrap;text-overflow:ellipsis;display:block;font-size:19px;}
+#daumContent .titleBar .back{text-indent:-1000em;width:52px;overflow:hidden;height:28px;background-position:0px -241px;float:left;}
+
+#daumContent .inputbar{height:34px;padding:4px 57px 0px 6px;margin-top:1px;border-bottom:1px solid #adafb8;background-color:#e6e6e6;}
+#daumContent .groupbar{padding:0px 57px 4px 6px;border-bottom:1px solid #adafb8;background-color:#e6e6e6;border-top:1px solid #f4f8fb;}
+
+#daumContent .message_wrap{background-color:#fff;border:1px solid #A3A6B2;display:block;height:28px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#daumContent #inputBar {position:relative;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e6e7ec), to(#d7dae1));background: -moz-linear-gradient(90deg,#d7dae1,#e6e7ec)}
+#daumContent #inputBar form{}
+
+#daumContent #inputBar #message{border:0 none;height:20px;margin:3px 0 0;margin-left:5px;padding:2px 2px 0;font-size:14px;width:90%;}
+#daumContent #inputBar .send{width:45px;height:30px;position:absolute;bottom:4px;right:6px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/mypeople/2010/btn_send.gif) no-repeat;text-indent:-1000em;}
+#daumContent #inputBar #group{font-size:12px;color:#3d406d;letter-spacing:-1px;font-weight:bold;margin-top:5px;}
+
+#daumContent .talking_list{padding-top:5px;padding-bottom:15px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/my_backbg.gif) repeat;min-height:300px;}
+#daumContent .talking_list .daybg{margin-top:10px;margin-left:12px;margin-right:70px;position:relative;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_dot.gif) repeat-x 0px -40px;height:15px;text-align:right;margin-bottom:15px;}
+#daumContent .talking_list .day{position:absolute;right:-57px;top:-9px;color:#848ca1;font-size:13px;}
+
+#daumContent .noVideo{margin-left:13px;margin-top:45px;font-size:12px;color:#c90000;letter-spacing:-1px;}
+#daumContent .noVideo{font-size:12px;color:#c90000;letter-spacing:-1px;}
+#daumContent .viewPic{margin-top:35px;width:43px;height:29px;background-position:0px -480px;}
+#daumContent .viewPic{margin-top:38px;width:43px;height:29px;background-position:0px -480px;}
+
+
+#daumContent .lastln{padding-bottom:25px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_480/myimg_dot.gif) repeat-x 0px -40px; height:1px;}
+#daumContent .noVideoImg{width:51px;height:53px}
+/*#daumContent .photoImg{width:79px;height:52px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/) no-repeat;}*/
+
+/*말풍선*/ 
+
+#daumContent .talking_list .leftUser{width:100%;position:relative;padding-top:8px;padding-bottom:8px;}
+#daumContent .talking_list .leftUser .user{margin-right:20px;margin-left:13px;width:27px;float:left;height:27px;margin-right:4px;}
+#daumContent .leftword_wrap{margin-right:13px;}
+#daumContent .leftwrap{padding-right:13px;padding-left:50px;display:block;}
+#daumContent .left_wrap{display:block;width:100%;font-size:22px;color:#0e0e10;position:relative;}
+#daumContent .left_wrap .left{width:6px;position:absolute;top:11px;left:1px;height:7px;position:absolute;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_arr2_v1.png) no-repeat;}
+#daumContent .left_wrap .leftTop{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_topl2_v1.png) no-repeat;width:6px;height:6px;position:absolute;top:0;left:6px;}
+#daumContent .left_wrap .Top{font-size:0px;display:block;height:6px;margin:0 12px 0px 12px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_topm2_v1.png) repeat-x;}
+#daumContent .left_wrap .rightTop{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_topr2_v1.png) no-repeat;width:6px;height:6px;position:absolute;top:0;right:6px;}
+#daumContent .left_wrap .rightBottom {font-size:0px;right:6px;bottom:0px;font-size:11px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_botr2_v1.png) no-repeat;width:6px;height:6px;position:absolute;}
+#daumContent .left_wrap .Bottom{font-size:0px;display:block;height:6px;margin:0 12px 0px 12px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_botm2_v1.png) repeat-x;}
+#daumContent .left_wrap .leftBottom{font-size:0px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_botl2_v1.png) no-repeat;width:6px;height:6px;position:absolute;bottom:0px;left:6px;}
+#daumContent .left_wrap .comment{font-size:14px;background-color:#fff;padding:0px 6px;margin:0px 6px 0px 6px;color:#0e0e10;letter-spacing:-1px;border-right:1px solid #a5a5a5;border-left:1px solid #a5a5a5;}
+#daumContent .left_wrap .comment .noVideoImg{margin:3px 0px}
+#daumContent .left_wrap .comment .photoImg{margin:3px 0px}
+
+#daumContent .talking_list .rightUser{width:100%;position:relative;padding-top:8px;padding-bottom:8px;}
+#daumContent .talking_list .rightUser .user{width:27px;float:right;height:27px;margin-right:13px;}
+#daumContent .rightword_wrap{margin-right:10px;}
+#daumContent .rightwrap{margin-left:13px;margin-right:45px;display:block;}
+#daumContent .right_wrap{display:block;width:100%;font-size:22px;color:#0e0e10;position:relative;}
+#daumContent .right_wrap{display:block;width:100%;font-size:22px;color:#0e0e10;position:relative;}
+#daumContent .right_wrap .right{width:6px;position:absolute;top:10px;right:1px;height:7px;position:absolute;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_arr1_v1.png) no-repeat;}
+#daumContent .right_wrap .leftTop{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_topl1_v1.png) no-repeat;width:6px;height:6px;position:absolute;top:0;left:6px;}
+#daumContent .right_wrap .Top{font-size:0px;display:block;height:6px;margin:0 12px 0px 12px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_topm1_v1.png) repeat-x;}
+#daumContent .right_wrap .rightTop{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_topr1_v1.png) no-repeat;width:6px;height:6px;position:absolute;top:0;right:6px;}
+#daumContent .right_wrap .rightBottom {font-size:0px;right:6px;bottom:0px;font-size:11px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_botr1_v1.png) no-repeat;width:6px;height:6px;position:absolute;}
+#daumContent .right_wrap .Bottom{font-size:0px;display:block;height:6px;margin:0 12px 0px 12px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_botm1_v1.png) repeat-x;}
+#daumContent .right_wrap .leftBottom{font-size:0px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_ba_botl1_v1.png) no-repeat;width:6px;height:6px;position:absolute;bottom:0px;left:6px;}
+#daumContent .right_wrap .comment{font-size:14px;background-color:#CDD8FF;padding:0px 6px;margin:0px 6px 0px 6px;color:#0e0e10;letter-spacing:-1px;border-right:1px solid #8896BC;border-left:1px solid #8896BC;}
+#daumContent .right_wrap .comment .noVideoImg{margin:3px 0px}
+#daumContent .right_wrap .comment .photoImg{margin:3px 0px}
+
+.speech_list li .name {position:absolute;top:2px;left:12px;font-size:12px;color:#3d406d;}
+.group #speech_list li.hide {padding:0;overflow:hidden;}
+.group #speech_list li.sys {}
+.group #speech_list li.sys .name {display:none;}
+.group #speech_list li.sys img {display:none;}
+.group #speech_list li.sys .imgBack2 {display:none;}
+.group #speech_list li.sys p {border:none;background:none;margin:0;padding:0;text-align:center;width:100%;color:#4960dc}
+
+/*이미지라운딩*/
+#daumContent .imgBack1{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum1.png) no-repeat;position:absolute;top:0px;left:0px;width:44px;height:44px;z-index:0;}
+#daumContent .flist_area  .imgBack2{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:0px;width:27px;height:27px;z-index:0;left:0px;}
+#daumContent .leftUser .imgBack2{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:8px;width:27px;height:27px;z-index:0;left:13px;}
+#daumContent .rightUser .imgBack2{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:8px;width:27px;height:27px;z-index:0;right:13px;}
+
+#daumContent .other .imgBack2{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:8px;width:27px;height:27px;z-index:0;left:13px;}
+#daumContent .my .imgBack2{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:0px;width:27px;height:27px;z-index:0;right:12px;}
+
+
+#daumContent .imgback_lUser{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:12px;width:27px;height:27px;z-index:0;left:12px;}
+#daumContent .imgback_rUser{background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/2010/mypeople_320/myimg_sum2.png) no-repeat;position:absolute;top:12px;width:27px;height:27px;z-index:0;right:12px;}
+
+/* footerWrap
+#foot_btn { position:relative; height:24px; margin-top:5px; }
+#foot_btn a { display:block; position:absolute; height:24px; background:url('https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/simple/safari/common/footer_btn_ipn.gif') no-repeat; overflow:hidden; text-indent:-1000em; }
+#foot_btn .btGoPrev { top:0; left:0; width:78px; background-position:10px -24px; }
+#foot_btn .btGoPC { top:0; right:60px; width:90px; background-position:7px -72px; }
+#foot_btn .btGoTop { top:0; right:1px; width:59px; background-position:-5px top; }
+
+#footerWrap { border:1px solid #DADADA; background-color:#F0F0F0; text-align:center; }
+#footerWrap .copy {color:#999999;font-family:'Helvetica','AppleGothic';font-size:10px;margin:0;padding:5px 0 20px;text-align:center;white-space:nowrap;}
+ */
+
+/*말풍선 320 아이폰, safari mozilla*/
+#daumContent .group .leftUser, #daumContent .group .rightUser{padding:18px 0px 15px 0px;}
+.speech_list li {overflow:hidden;padding:0 0 12px 0;clear:both;position:relative}
+	#daumContent .talking_list .speech_list li.daybg {position:relative;height:15px;font-size:12px;margin-right:15px;padding:0;background-position:0 -31px;} 
+	#daumContent .talking_list .speech_list li.daybg .day {right:0;top:0;background-color:#f8f8fa;padding-left:10px}
+	.speech_list li img.userphoto{margin-left:13px;top:8px;left:0;width:27px;height:27px;position:absolute;}
+	.speech_list li img.portrait {position:absolute;top:12px;left:12px;width:27px;height:27px;}
+	.speech_list .other .viewPic{float:left;}
+	.speech_list .other{padding-bottom:7px;padding-top:7px;}
+
+	.speech_list .other .name {position:absolute;top:-2px;left:12px;font-size:13px;color:#3d406d;}
+	.speech_list .my .name {position:absolute;top:0px;right:12px;left:auto}
+	
+	.speech_list li p {
+		background-color:#fff;
+		display:block;margin:0 0 0 50px;font-size:14px;padding:6px;
+		position:relative;		
+		border:1px solid #ccc;
+		-moz-border-radius:7px;
+		-webkit-border-radius:7px;
+		border-radius:10px;
+		float:left;
+		line-height:14px;
+		margin-right:12px;
+	}
+	.speech_list li p:before, .speech_list li p:after {
+		content:"\00a0";
+		display:block; /* reduce the damage in FF3.0 */
+		position:absolute;
+		width:0;
+		height:0;	
+		border:1px solid transparent;
+	}
+	.speech_list li p:before {
+		top:5px;
+		left:-16px;
+		border-width:6px 8px;
+		border-right-color:#ccc;
+	}
+	.speech_list li p:after {
+		top:6px;
+		left:-14px;
+		border-width:5px 7px;
+		border-right-color:#fff;
+	}
+	
+	.group #speech_list .userphoto{top:18px;}
+	.group #speech_list .imgBack2{top:18px;}
+	.group #speech_list .name{top:-1px;}
+	.speech_list li.my{margin-top:7px;padding-bottom:7px;}
+	.speech_list li.my .userphoto {position:absolute;top:0;width:27px;height:27px;right:12px;left:auto}
+	.speech_list li.my .noVideo{position:absolute;right:126px;top:0;}
+	.speech_list li.my .viewPic{float:right;}
+	.speech_list li.my p {
+		float:right;
+		margin:0 50px 0 0;
+		color:#202E6B;
+		border-color:#8EA1DC;	
+		background:-moz-linear-gradient(top, #E6EEFB, #C3D2FD);
+		background:-webkit-gradient(linear, center top, center bottom, from(#E6EEFB), to(#C3D2FD));
+		margin-left:13px;
+	
+	}
+	
+	.speech_list li.my p:before, .speech_list li.my p:after {
+		left:auto;
+		border-color:transparent;
+	}
+	.speech_list li.my p:before {
+		top:5px;
+		right:-16px;
+		border-left-color:#8EA1DC;
+	}
+	.speech_list li.my p:after {
+		top:6px;
+		right:-14px;
+		border-left-color:#D3DFFC;
+	}
+	
+		.group #speech_list li{padding-bottom:15px;padding-top:18px;}
+
+#mask {width:100%;opacity:1;top:0;left:0;background-color:#eee;position:absolute;z-index:9999;display:none;padding:5px 0 10px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;text-align:center;}
+#mask img {-webkit-box-shadow: 0px 3px 3px #999;}
+#mask div {}
+#mask button {margin-top:10px;font-size:12px;-moz-border-radius:5px 6px; -webkit-border-radius:5px 6px;padding:5px 10px;background:#eee;border-color:#9799a5;}
+
+#daumContent .speech_list .rightUser .no_video{margin-left:170px;}
+#daumContent .speech_list .leftUser .no_video{padding-right:170px;}
+#daumContent .speech_list .rightUser .noVideo{margin-left:18px;margin-top:60px;position:absolute;left:0;top:0;}
+#daumContent .speech_list .leftUser .noVideo{margin-left:18px;margin-top:60px;position:absolute;right:13px;top:0;}
+
+#daumContent .speech_list .leftUser .viewPhoto{padding-right:60px;}
+#daumContent .speech_list .rightUser .viewPhoto{padding-left:50px;}
+#daumContent .speech_list .rightUser .noVideo{position:absolute;left:0;top:0;}
+#daumContent .speech_list .leftUser .noVideo{position:absolute;right:13px;top:0;}
+#daumContent .speech_list .rightUser .viewPic{position:absolute;left:18px;top:0;}
+#daumContent .speech_list .leftUser .viewPic{position:absolute;right:13px;top:0;}
+
+#daumContent .in_msg_link {text-decoration:underline;color:blue;}
+
+#daumContent .my_status {position:relative;margin-top:1px;height:38px;border-bottom:1px solid #b8bbc1;background-color:#f2f2f6;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e6e7ec), to(#d7dae1));background: -moz-linear-gradient(90deg,#d7dae1,#e6e7ec);overflow:hidden;}
+#daumContent .my_status img.mypic {position:absolute;width:28px;height:28px;left:13px;top:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#daumContent .my_status p {position:absolute;left:50px;top:9px;display:block;max-width:85%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#2f3453;font-size:14px;}
+#daumContent .my_status #statusText a {display:block;position:absolute;width:45px;height:30px;oveflow:hidden;text-indent:-1000in;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/mypeople/2010/btn_edit.gif) no-repeat;top:4px;right:6px;}
+#daumContent .my_status #statusForm {display:none;}
+#daumContent .my_status #statusForm input {position:absolute;top:4px;left:47px;background-color:#fff;border:1px solid #A3A6B2;display:block;height:28px;-moz-border-radius:5px;-webkit-border-radius:5px;font-size:15px;width:67%;}
+#daumContent .my_status #statusForm a {display:block;position:absolute;width:45px;height:30px;oveflow:hidden;text-indent:-1000in;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/mypeople/2010/btn_save.gif) no-repeat;top:4px;right:6px;}
+
+/* promotion */
+.type_btn {display:block;overflow:hidden;text-indent:-9999em;border:0px;cursor:pointer;padding:0px;vertical-align:baseline;-webkit-border-radius:0px;}
+.hide {position: absolute; left: -9999in; width: 1px; height: 1px; overflow: hidden;} 
+
+/* border-radius 3px button style */
+a.round{-webkit-border-radius:3px;border-radius:3px;padding:1px;font-size:12px;display:inline-block;text-decoration:none;}
+a.round span{-webkit-border-radius:3px;border-radius:3px;display:inline-block;width:100%;height:100%;text-align:center;}
+
+#daumContent .area_my_people {width:100%;background:#d8ecff;}
+
+#daumContent .area_my_people .wrap_eventhead {position:relative;width:320px;height:122px;margin:0 auto;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo_head_2.jpg) 0 0 no-repeat;}
+
+#daumContent .area_my_people .wrap_eventhead_home {position:relative;width:320px;height:122px;margin:0 auto;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo_head.jpg) 0 0 no-repeat;}
+#daumContent .area_my_people .wrap_eventhead a.link_mypeople,
+#daumContent .area_my_people .wrap_eventhead_home a.link_mypeople {position:absolute;bottom:7px;right:103px;width:109px;height:37px;}
+#daumContent .area_my_people .wrap_body {position:relative;width:320px;margin:0 auto;}
+#daumContent .area_my_people .wrap_eventinfo {width:320px;margin:0 auto;}
+
+#daumContent .type_1 .wrap_body {height:255px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo_body_1.jpg) 0 0 no-repeat;}
+#daumContent .type_1 .wrap_body a {position:absolute;}
+#daumContent .type_1 .wrap_body a.btn_appdown {top:104px;right:6px;width:151px;height:30px;}
+#daumContent .type_1 .wrap_body a.btn_vitefriend {bottom:7px;right:10px;width:99px;height:30px;}
+#daumContent .type_1 .wrap_eventinfo {width:320px;height:146px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo_eventinfo_3.jpg) 0 0 no-repeat;}
+
+#daumContent .type_2 .wrap_body {height:269px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo2_body_3.jpg) 0 0 no-repeat;}
+#daumContent .type_2 .wrap_body a {position:absolute;}
+#daumContent .type_2 .wrap_body a.btn_start {top:204px;right:36px;width:244px;height:44px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/btn_myp_start.png) 0 0 no-repeat;}
+#daumContent .type_2 .wrap_body a.btn_appstore {top:204px;right:56px;width:208px;height:44px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/btn_app_down.png) 0 0 no-repeat;}
+#daumContent .type_2 .wrap_eventinfo {width:320px;height:279px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo2_eventinfo_4.jpg) 0 0 no-repeat;}
+
+#daumContent .type3 .wrap_body {height:349px;padding-top:104px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo3_body.jpg) 0 0 no-repeat;text-align:center;}
+#daumContent .type3 .wrap_body input.type_txt {display:block;padding:4px;}
+#daumContent .type3 .wrap_body input.txt_mynum {width:167px;height:17px;margin:0px 0 10px 110px;border:1px solid #b5d4ec;background-color:#dff1ff;}
+#daumContent .type3 .wrap_body input.txt_phonnum {width:134px;height:16px;margin:0 0 1px 143px;border:1px solid #bbb;-webkit-border-radius:4px;-webkit-appearance: textfield;-webkit-box-shadow:inset 1px 1px 3px 0 rgba(0,0,0,0.3);box-shadow:inset 1px 1px 3px 0 rgba(0,0,0,0.3);background-color: #ffffff;} 
+#daumContent .type3 .wrap_body .message {overflow:auto;width:244px;height:78px;margin:37px auto 0;padding:4px;border:1px solid #b5d4ec;background-color:#dff1ff;}
+#daumContent .type3 .wrap_body a.round {height:29px;margin-top:9px;}
+#daumContent .type3 .wrap_body a.round span {font-size:13px;line-height:30px;-webkit-box-shadow:inset 1px 1px 1px rgba(255,255,255,0.03), inset -1px -1px 1px rgba(255,255,255,0.03);}
+#daumContent .type3 .wrap_body a.btn_send {width:63px;background-color:#3f58d9;}
+#daumContent .type3 .wrap_body a.btn_prev {width:101px;margin-left:1px;background-color:#bbbbbb;}		
+#daumContent .type3 .wrap_body a.btn_send span {color:#FFF;background-color:#6f8bf8;background:-webkit-gradient(linear, left top, left bottom,from(#7f98fc),to(#5471f1));}
+#daumContent .type3 .wrap_body a.btn_prev span {color:#666;background-color:#f9f9f9;background:-webkit-gradient(linear, left top, left bottom,from(#ffffff),to(#efefef));}
+#daumContent .type3 .wrap_eventinfo {width:320px;height:130px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m320/event/mypeople/20100908/bg_promo3_eventinfo_3.jpg) 0 0 no-repeat;}
+
+/* sosi promotion 201010 */
+#daumContent .area_pro_mypeople {width:100%;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/bg_promotion_2.jpg) no-repeat center top;-webkit-background-size:320px 442px;}
+#daumContent .area_pro_mypeople .wrap_event {position:relative;width:320px;height:441px;margin:0 auto;}
+#daumContent .area_pro_mypeople .wrap_event a.btn_go {position:absolute;top:212px;left:141px;width:108px;height:67px;}
+#daumContent .area_pro_mypeople .list_event {background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/bg_list_2.jpg) no-repeat center top;-webkit-background-size:320px 311px;}
+#daumContent .area_pro_mypeople .list_event ul  {position:relative;width:100%;height:312px;}
+#daumContent .area_pro_mypeople .list_event li a {position:absolute;top:66px;width:63px;height:22px;}
+#daumContent .area_pro_mypeople .list_event li a.btn_iphone {left:142px;}
+#daumContent .area_pro_mypeople .list_event li a.btn_android {left:207px; width: 75px;}
+#daumContent .area_pro_mypeople dl.list_info {position:relative;width:320px;height:210px;margin:0 auto;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/bg_event_1.gif) no-repeat 0 0;-webkit-background-size:320px 210px;}
+#daumContent .area_pro_mypeople dl.list_info a.link_notcall {position:absolute;top:162px;left:39px;width:100px;height:28px;}
+
+/* accept */
+/* 음성메시지 수신설정 공통 */
+#daumContent .area_message_set {overflow:hidden;width:320px;height:456px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/bg_message_set_1004_2.jpg) no-repeat 0 0;-webkit-background-size:320px 457px;}
+#daumContent .area_message_set .wrap_head {width:292px;margin:64px 0 0 14px;}
+/* 수신 허용 여부 선택 */
+#daumContent .area_message_set .select {padding-top:21px;font-size:14px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/bar_message_set.gif) no-repeat center 16px;-webkit-background-size:1px 26px;}
+#daumContent .area_message_set .select input {position:relative;top:-2px;}
+#daumContent .area_message_set .select .inp_commit {margin-left:33px;}
+#daumContent .area_message_set .select .inp_refusal {margin-left:65px;}
+#daumContent .area_message_set .select a.round {display:block;width:126px;height:38px;margin:31px auto 0;font-size:16px;line-height:38px;color:#fff;background:-webkit-gradient(linear,left top,left bottom,from(#c24c57),to(#8e3844));background-color:#a9424d;
+-webkit-box-shadow:0 1px 0 #eae2d7;border-radius: 5px;
+}
+#daumContent .area_message_set .select a.round span {display:block;background:-webkit-gradient(linear,left top,left bottom,from(#fd6477),to(#e73d57));background-color:#f04f64;
+-webkit-box-shadow:inset 1px 1px 1px rgba(255,255,255,0.3),inset -1px -1px 1px rgba(255,255,255,0.3);border-radius: 5px;
+}
+
+#pushAcceptField {display: block;margin-top: 35px; padding-left: 33px; height: 34px; background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/bg_message_01.jpg) no-repeat right top;-webkit-background-size:171px 25px;}
+
+/* 설정이 저장 되었습니다 */
+#daumContent .area_message_set .result {width:216px;height:58px;font-size:17px;line-height:58px;background:url(https://m.mypeople.daum.net/img/m1.daumcdn.net/icon/mobile/m640/event/2010/0919_mypeople/ico_message_set.gif) no-repeat 15px 11px;-webkit-background-size:35px 34px;}
+#daumContent .area_message_set .result strong {display: block; padding-left: 50px; font-size: 15px; letter-spacing:-1px;}
+#daumContent .area_message_set .result strong span {font-size:15px;}
+#daumContent .area_message_set .result .nouser_msg {font-size: 13px;letter-spacing:-1px;}
